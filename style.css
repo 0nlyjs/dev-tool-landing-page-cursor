@@ -325,3 +325,75 @@ body {
   display: block;
   object-fit: cover;
 }
+
+.changelog-section {
+  margin-top: 150px;
+}
+
+.changelog-section h2 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.changelog-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.cngl {
+  background-color: #1b1913;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 120px;
+  transition: background-color 0.2s;
+}
+
+.cngl:hover {
+  background-color: #201e17;
+}
+
+.cngl span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.cngl span h3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #a1a1a1;
+}
+
+.wr-border {
+  border: 1px solid #636363;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 0.8rem !important;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cngl h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d8d8d8;
+}
+
+.changelog-section > a {
+  display: inline-block;
+  color: #b23c03;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.changelog-section > a:hover {
+  color: #8a2e00;
+}
