@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Helvetica Neue", Courier, monospace;
-  background-color: #14120b;
   color: #efefef;
 }
 body {
   width: 70%;
   margin: 0 auto;
+  background-color: #14120b;
 }
 
 .navbar {
@@ -199,4 +199,66 @@ body {
 
 .feature-section.reverse {
   flex-direction: row-reverse;
+}
+
+.review-section {
+  margin-top: 140px;
+}
+
+.review-section h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.review-grid {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.review-grid div {
+  background-color: #1b1913;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-grid div h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.review-grid span {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.review-grid span img {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  grid-row: 1 / span 2;
+}
+
+.review-grid span h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  align-self: end;
+}
+
+.review-grid span h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+  margin: 0;
+  align-self: start;
 }
