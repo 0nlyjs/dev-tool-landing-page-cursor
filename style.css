@@ -141,3 +141,62 @@ body {
   max-height: 40%;
   width: auto;
 }
+
+.feature-section {
+  margin-top: 110px;
+  background-color: #1b1913;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 30px 25px;
+  max-width: 100%;
+}
+
+.feature-text {
+  flex: 1;
+  max-width: 450px;
+  background-color: transparent;
+}
+
+.feature-text h2 {
+  font-size: 22px;
+  font-weight: 00;
+  margin-bottom: 6px;
+  color: #efefef;
+  background-color: transparent;
+}
+
+.feature-text p {
+  color: #a1a1a1;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.learn-link {
+  color: #bf4105;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.feature-image-container {
+  flex: 1;
+  background-color: transparent;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #333;
+  background-color: transparent;
+}
+
+.feature-section.reverse {
+  flex-direction: row-reverse;
+}
