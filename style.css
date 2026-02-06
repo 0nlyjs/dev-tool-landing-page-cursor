@@ -104,3 +104,40 @@ body {
   height: auto;
   display: block;
 }
+
+.trusted-by-section {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.trusted-by-section h3 {
+  color: #c0c0c0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+.tb-logos-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.tb-logo-item {
+  margin-top: 30px;
+  background-color: #1b1913;
+  border-radius: 4px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tb-company-logos {
+  background-color: transparent;
+  max-height: 40%;
+  width: auto;
+}
