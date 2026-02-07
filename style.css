@@ -397,3 +397,51 @@ body {
 .changelog-section > a:hover {
   color: #8a2e00;
 }
+
+.joinus-section {
+  margin-top: 120px;
+}
+
+.joinus-d {
+  display: flex;
+  background-color: #1b1913;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.joinus-d span {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.joinus-d h2 {
+  color: #ededed;
+  font-size: 22px;
+  font-weight: 300;
+  max-width: 350px;
+}
+
+.joinus-d a {
+  margin-top: 20px;
+  color: #bf4105;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.joinus-d a:hover {
+  color: #9a3202;
+}
+
+.joinus-d img {
+  flex: 1.3;
+  object-fit: cover;
+  height: auto;
+  min-height: 100%;
+  display: block;
+  padding: 20px;
+  border-radius: 25px;
+}
