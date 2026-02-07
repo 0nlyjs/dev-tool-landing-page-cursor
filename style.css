@@ -445,3 +445,76 @@ body {
   padding: 20px;
   border-radius: 25px;
 }
+
+.highlight-section {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b1913;
+}
+
+.highlight-section h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: -25px;
+  margin-left: 50px;
+  margin-top: 80px;
+  width: 100%;
+  text-align: left;
+}
+
+.highlight-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 800px;
+}
+
+.hlg {
+  background-color: #26241e;
+
+  border-radius: 5px;
+  padding: 20px;
+  transition: background-color 0.2s;
+}
+
+.hlg:hover {
+  background-color: #322f28;
+}
+
+.hlg h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.hlg h4:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #a1a1a1;
+  margin-bottom: 24px;
+}
+
+.hlg h4:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}
+
+.highlight-section > a {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  color: #bf4105;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.highlight-section > a:hover {
+  background-color: #973000;
+}
